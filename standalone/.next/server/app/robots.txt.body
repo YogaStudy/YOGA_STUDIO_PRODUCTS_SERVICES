@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+Disallow: /privacy
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /changePassword
+Disallow: /profile
+
+Sitemap: https://pranayama-yoga-studio.online/sitemap.xml
