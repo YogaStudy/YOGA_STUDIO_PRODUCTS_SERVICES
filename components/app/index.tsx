@@ -2,7 +2,6 @@ import React from "react";
 import Copyright from "@components/Copyright";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
-import { ToastContainer } from "react-toastify";
 interface MainProps {
   childrenElement: React.ReactNode;
 }
@@ -10,7 +9,6 @@ interface MainProps {
 const Main = ({ childrenElement }: MainProps) => {
   return (
     <>
-      <ToastContainer />
       <div className="main">
         <div className="gradient" />
       </div>

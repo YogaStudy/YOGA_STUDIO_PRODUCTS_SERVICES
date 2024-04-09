@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "@styles/global.css";
-import "react-toastify/dist/ReactToastify.css";
 import Main from "@components/app";
 import { Inter } from "next/font/google";
 const inter = Inter({
